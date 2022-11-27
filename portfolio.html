@@ -13,31 +13,32 @@
 		rel="stylesheet" />
 	<link rel="stylesheet"
 		href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
+	<link rel="stylesheet" href="./css/main.min.css">
 	<link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
 	<header class="header">
-		<div class="header-box container">
+		<div class="header__box container">
 			<!--<nav class="nav">-->
 			<!-- prettier-ignore -->
 			<a class="logo link" href="">Web<span class="logo-header">Studio</span></a>
 			<nav class="nav">
-				<ul class="nav-list">
-					<li class="nav-item list"><a class="nav-link link" href="./index.html">Студія</a></li>
-					<li class="nav-item list"><a class="nav-link link menu-now-prtfl"
+				<ul class="nav__list">
+					<li class="nav__item list"><a class="nav__link link" href="./index.html">Студія</a></li>
+					<li class="nav__item list"><a class="nav__link link menu-now-prtfl"
 							href="./portfolio.html">Портфоліо</a></li>
-					<li class="nav-item list"><a class="nav-link link" href="">Контакти</a></li>
+					<li class="nav__item list"><a class="nav__link link" href="">Контакти</a></li>
 				</ul>
 			</nav>
-			<ul class="header-contact list">
-				<li class="nav-item"><a class="contact link" href="mailto:info@devstudio.com">
-						<svg class="icon-header" width="16" height="12">
+			<ul class="contact list">
+				<li class="contact__item"><a class="contact__link link" href="mailto:info@devstudio.com">
+						<svg class="contact__icon" width="16" height="12">
 							<use href="./images/icons.svg#icon-envelope-hover"></use>
 						</svg> info@devstudio.com</a>
 				</li>
-				<li class="nav-item"><a class="contact link" href="tel:+38 0961111111">
-						<svg class="icon-header" width="10" height="16">
+				<li class="contact__item"><a class="contact__link link" href="tel:+38 0961111111">
+						<svg class="contact__icon" width="10" height="16">
 							<use href="./images/icons.svg#icon-smartphone"></use>
 						</svg> +38 096 111 11 11</a></li>
 			</ul>
@@ -69,13 +70,13 @@
 				</div>
 
 				<!-- Картки -->
-				<ul class="list-photo list">
-					<li class="item-photo">
-						<div class="photo-thumb">
+				<ul class="portfolio__card list">
+					<li class="portfolio__item">
+						<div class="portfolio__thumb">
 							<a href=""><img src="images/portfolio-img1.jpg" alt="Ноутбук" width="370"
 									height="294" /></a>
-							<div class="overlay">
-								<p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
+							<div class="portfolio__overlay">
+								<p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
 									функціоналу та сервісів. Все це дозволить відвідувачу отримати
 									вичерпні відомості про компанію чи приватну особу.</p>
 							</div>
@@ -85,14 +86,14 @@
 							<p class="projects-text">Веб-сайт</p>
 						</div>
 					</li>
-					<li class="item-photo">
-						<div class="photo-thumb">
+					<li class="portfolio__item">
+						<div class="portfolio__thumb">
 							<a href="">
 								<img src="images/portfolio-img2.jpg" alt="Постер баскетболістів" width="370"
 									height="294" />
 							</a>
-							<div class="overlay">
-								<p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
+							<div class="portfolio__overlay">
+								<p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
 									функціоналу та сервісів. Все це дозволить відвідувачу отримати
 									вичерпні відомості про компанію чи приватну особу.</p>
 							</div>
@@ -102,12 +103,12 @@
 							<p class="projects-text">Дизайн</p>
 						</div>
 					</li>
-					<li class="item-photo">
-						<div class="photo-thumb">
+					<li class="portfolio__item">
+						<div class="portfolio__thumb">
 							<a href=""><img src="images/portfolio-img3.jpg" alt="Риба з текстом" width="370"
 									height="294" /></a>
-							<div class="overlay">
-								<p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
+							<div class="portfolio__overlay">
+								<p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
 									функціоналу та сервісів. Все це дозволить відвідувачу отримати
 									вичерпні відомості про компанію чи приватну особу.</p>
 							</div>
@@ -117,12 +118,12 @@
 							<p class="projects-text">Додаток</p>
 						</div>
 					</li>
-					<li class="item-photo">
-						<div class="photo-thumb">
+					<li class="portfolio__item">
+						<div class="portfolio__thumb">
 							<a href=""><img src="images/portfolio-img4.jpg" alt="Навушники" width="370"
 									height="294" /></a>
-							<div class="overlay">
-								<p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
+							<div class="portfolio__overlay">
+								<p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
 									функціоналу та сервісів. Все це дозволить відвідувачу отримати
 									вичерпні відомості про компанію чи приватну особу.</p>
 							</div>
@@ -132,12 +133,12 @@
 							<p class="projects-text">Маркетинг</p>
 						</div>
 					</li>
-					<li class="item-photo">
-						<div class="photo-thumb">
+					<li class="portfolio__item">
+						<div class="portfolio__thumb">
 							<a href=""><img src="images/portfolio-img5.jpg" alt="Коробки" width="370"
 									height="294" /></a>
-							<div class="overlay">
-								<p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
+							<div class="portfolio__overlay">
+								<p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
 									функціоналу та сервісів. Все це дозволить відвідувачу отримати
 									вичерпні відомості про компанію чи приватну особу.</p>
 							</div>
@@ -147,12 +148,12 @@
 							<p class="projects-text">Додаток</p>
 						</div>
 					</li>
-					<li class="item-photo">
-						<div class="photo-thumb">
+					<li class="portfolio__item">
+						<div class="portfolio__thumb">
 							<a href=""><img src="images/portfolio-img6.jpg" alt="Монітор" width="370"
 									height="294" /></a>
-							<div class="overlay">
-								<p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
+							<div class="portfolio__overlay">
+								<p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
 									функціоналу та сервісів. Все це дозволить відвідувачу отримати
 									вичерпні відомості про компанію чи приватну особу.</p>
 							</div>
@@ -162,11 +163,11 @@
 							<p class="projects-text">Веб-сайт</p>
 						</div>
 					</li>
-					<li class="item-photo">
-						<div class="photo-thumb">
+					<li class="portfolio__item">
+						<div class="portfolio__thumb">
 							<a href=""><img src="images/portfolio-img7.jpg" alt="Журнал" width="370" height="294" /></a>
-							<div class="overlay">
-								<p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
+							<div class="portfolio__overlay">
+								<p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
 									функціоналу та сервісів. Все це дозволить відвідувачу отримати
 									вичерпні відомості про компанію чи приватну особу.</p>
 							</div>
@@ -176,11 +177,11 @@
 							<p class="projects-text">Дизайн</p>
 						</div>
 					</li>
-					<li class="item-photo">
-						<div class="photo-thumb">
+					<li class="portfolio__item">
+						<div class="portfolio__thumb">
 							<a href=""><img src="images/portfolio-img8.jpg" alt="Бірка" width="370" height="294" /></a>
-							<div class="overlay">
-								<p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
+							<div class="portfolio__overlay">
+								<p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
 									функціоналу та сервісів. Все це дозволить відвідувачу отримати
 									вичерпні відомості про компанію чи приватну особу.</p>
 							</div>
@@ -190,12 +191,12 @@
 							<p class="projects-text">Маркетинг</p>
 						</div>
 					</li>
-					<li class="item-photo">
-						<div class="photo-thumb">
+					<li class="portfolio__item">
+						<div class="portfolio__thumb">
 							<a href=""><img src="images/portfolio-img9.jpg" alt="Ноутбук" width="370"
 									height="294" /></a>
-							<div class="overlay">
-								<p class="overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
+							<div class="portfolio__overlay">
+								<p class="portfolio__overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем
 									функціоналу та сервісів. Все це дозволить відвідувачу отримати
 									вичерпні відомості про компанію чи приватну особу.</p>
 							</div>
@@ -218,46 +219,46 @@
 				<a class="logo link" href="WebStudio">Web<span class="logo-footer">Studio</span></a>
 				<address class="address">
 					м. Київ, пр-т Лесі Українки, 26
-					<ul class="contact-list list">
-						<li class="footer-item">
-							<a class="footer-contact link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-						</li>
-						<li class="footer-item">
-							<a class="footer-contact link" href="tel:+380961111111">+38 096 111 11 11</a>
-						</li>
-					</ul>
 				</address>
+				<ul class="footer-contact list">
+					<li class="footer-contact__item">
+						<a class="footer-contact__link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+					</li>
+					<li class="footer-item">
+						<a class="footer-contact__link link" href="tel:+380961111111">+38 096 111 11 11</a>
+					</li>
+				</ul>
 			</div>
 
-			<div class="socials-div">
-				<h2 class="ftr-title">приєднуйтесь</h2>
-				<ul class="socials-ftr-list list">
-					<li class="socials-ftr-item">
-						<a class="socials-ftr-link link" href="http://instagram.com" target="_blank"
+			<div class="socials-footer">
+				<h2 class="socials-footer__title">приєднуйтесь</h2>
+				<ul class="socials-footer__list list">
+					<li class="socials-footer__item">
+						<a class="socials-footer__link link" href="http://instagram.com" target="_blank"
 							rel="noopener noreferrer" aria-label="Instagram icon">
 							<svg class="socials-icon" width="20" height="20">
 								<use href="./images/icons.svg#icon-instagram"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="socials-ftr-item">
-						<a class="socials-ftr-link link" href="http://twitter.com" target="_blank"
+					<li class="socials-footer__item">
+						<a class="socials-footer__link link" href="http://twitter.com" target="_blank"
 							rel="noopener noreferrer" aria-label="Twitter icon">
 							<svg class="socials-icon" width="20" height="20">
 								<use href="./images/icons.svg#icon-twitter"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="socials-ftr-item">
-						<a class="socials-ftr-link link" href="http://facebook.com" target="_blank"
+					<li class="socials-footer__item">
+						<a class="socials-footer__link link" href="http://facebook.com" target="_blank"
 							rel="noopener noreferrer">
 							<svg class="socials-icon" width="20" height="20">
 								<use href="./images/icons.svg#icon-facebook"></use>
 							</svg>
 						</a>
 					</li>
-					<li class="socials-ftr-item">
-						<a class="socials-ftr-link link" href="http://linkedin.com" target="_blank"
+					<li class="socials-footer__item">
+						<a class="socials-footer__link link" href="http://linkedin.com" target="_blank"
 							rel="noopener noreferrer">
 							<svg class="socials-icon" width="20" height="20">
 								<use href="./images/icons.svg#icon-linkedin"></use>
@@ -268,14 +269,14 @@
 			</div>
 
 			<div class="mailings">
-				<p class="mailings-text">підпишіться на розсилку</p>
-				<div class="mailings-div">
+				<p class="mailings__title">підпишіться на розсилку</p>
+				<div class="mailings__box">
 					<form>
 						<input type="text" class="form-field" name="e-mail" placeholder="E-mail">
 					</form>
-					<button class="mailings-btn" type="submit">
-						<span class="subscription">Підписатися</span>
-						<svg class="subscribe-icon" width="24px" height="24px">
+					<button class="mailings__btn" type="submit">
+						<span class="mailings__label">Підписатися</span>
+						<svg class="mailings__icon" width="24px" height="24px">
 							<use href="./images/icons.svg#icon-icon-mailings"></use>
 						</svg>
 					</button>
